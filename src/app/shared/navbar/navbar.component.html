@@ -1,0 +1,70 @@
+<div class="sidebar p-2 d-flex flex-column align-items-center">
+  <img
+    class="mb-3"
+    routerLink="home"
+    src="./assets/img/RicardoNoya.jpg"
+    alt="Ricardo Noya"
+  />
+  <ul>
+    <li routerLink="home" routerLinkActive="active">
+      <i class="fas fa-home"></i>
+      Home
+    </li>
+    <li routerLink="about" routerLinkActive="active">
+      <i class="far fa-address-card"></i>
+      About
+    </li>
+    <li routerLink="work" routerLinkActive="active">
+      <i class="fas fa-briefcase"></i>
+      Work
+    </li>
+    <li routerLink="contact" routerLinkActive="active">
+      <i class="fas fa-id-card-alt"></i>
+      Contact
+    </li>
+  </ul>
+</div>
+
+<div class="expand-bar">
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" routerLink="home">Ricardo Noya</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="collapse navbar-collapse"
+        id="navbarNav"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+      >
+        <ul>
+          <li routerLink="home" routerLinkActive="active">
+            <i class="fas fa-home"></i>
+            Home
+          </li>
+          <li routerLink="about" routerLinkActive="active">
+            <i class="far fa-address-card"></i>
+            About
+          </li>
+          <li routerLink="work" routerLinkActive="active">
+            <i class="fas fa-briefcase"></i>
+            Work
+          </li>
+          <li routerLink="contact" routerLinkActive="active">
+            <i class="fas fa-id-card-alt"></i>
+            Contact
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
